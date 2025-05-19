@@ -1,0 +1,5 @@
+---
+language: "pt-br"
+
+expansion_rules:
+  fechar: "(fecha|feche|fechar)"

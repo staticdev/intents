@@ -1,0 +1,6 @@
+---
+language: "pt-br"
+
+expansion_rules:
+  artigos: "(o[s]|a[s]|da|do[s]|de)"
+  na_zona: "([no|na]|[da|do]) {area}"
