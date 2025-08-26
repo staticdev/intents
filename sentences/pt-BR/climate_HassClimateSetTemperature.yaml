@@ -12,8 +12,8 @@ intents:
 
       # By floor name
       - sentences:
-          - "<muda> [a] temperatura <no_piso> para <temperatura>"
-          - "<muda> para <temperatura> a temperatura <no_piso>"
+          - "<muda> [a] temperatura <na_zona_piso> para <temperatura>"
+          - "<muda> para <temperatura> a temperatura <na_zona_piso>"
 
       # By climate entity name
       - sentences:
