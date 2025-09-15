@@ -1532,6 +1532,39 @@ HassStartTimer:
       example: "set a timer for 30 seconds in the living room"
 
     # -------------------------------------------------------------------------
+
+    area_hours_minutes:
+      description: "Start a timer with an area for a duration of hours and minutes"
+      importance: "complete"
+      slots:
+        - "area"
+        - "hours"
+        - "minutes"
+      example: "set a timer for 1 hour and 10 minutes in the living room"
+
+    # -------------------------------------------------------------------------
+
+    area_hours_seconds:
+      description: "Start a timer with an area for a duration of hours and seconds"
+      importance: "complete"
+      slots:
+        - "area"
+        - "hours"
+        - "seconds"
+      example: "set a timer for 1 hour and 30 seconds in the living room"
+
+    # -------------------------------------------------------------------------
+
+    area_minutes_seconds:
+      description: "Start a timer with an area for a duration of minutes and seconds"
+      importance: "complete"
+      slots:
+        - "area"
+        - "minutes"
+        - "seconds"
+      example: "set a timer for 10 minutes and 30 seconds in the living room"
+
+    # -------------------------------------------------------------------------
     # floor
     # -------------------------------------------------------------------------
 
@@ -1562,6 +1595,39 @@ HassStartTimer:
         - "floor"
         - "seconds"
       example: "set a timer for 30 seconds on the ground floor"
+
+    # -------------------------------------------------------------------------
+
+    floor_hours_minutes:
+      description: "Start a timer with a floor for a duration of hours and minutes"
+      importance: "complete"
+      slots:
+        - "floor"
+        - "hours"
+        - "minutes"
+      example: "set a timer for 1 hour and 10 minutes on the ground floor"
+
+    # -------------------------------------------------------------------------
+
+    floor_hours_seconds:
+      description: "Start a timer with a floor for a duration of hours and seconds"
+      importance: "complete"
+      slots:
+        - "floor"
+        - "hours"
+        - "seconds"
+      example: "set a timer for 1 hour and 30 seconds on the ground floor"
+
+    # -------------------------------------------------------------------------
+
+    floor_minutes_seconds:
+      description: "Start a timer with a floor for a duration of minutes and seconds"
+      importance: "complete"
+      slots:
+        - "floor"
+        - "minutes"
+        - "seconds"
+      example: "set a timer for 10 minutes and 30 seconds on the ground floor"
 
     # -------------------------------------------------------------------------
     # name
