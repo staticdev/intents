@@ -37,3 +37,4 @@ responses:
       cover_device_class: "تم اغلاق {{ slots.device_class }}"
       unlock: "تم الفتح"
       valve: "تم الفتح"
+      unused: new unused response
