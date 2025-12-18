@@ -17,4 +17,5 @@ intents:
           - "brech[e] (den|meinen|unseren) {timer_name:name} Timer ab"
           - "<timer_cancel>[ (den|meinen|unseren)] Timer für [<artikel_bestimmt> ]{timer_name:name}"
           - "brech[e] (den|meinen|unseren) Timer für [<artikel_bestimmt> ]{timer_name:name} ab"
-          - "[(den|meinen|unseren) ][(<timer_start>|{timer_name:name}) ]Timer <timer_cancel_end_of_sentence>"
+          - "[(den|meinen|unseren) ][(<timer_start>|{timer_name:name}|{area}) ]Timer <timer_cancel_end_of_sentence>"
+          - "[(den|meinen|unseren) ]Timer (für [<artikel_bestimmt> ]{timer_name:name}|<area>) <timer_cancel_end_of_sentence>"
