@@ -555,7 +555,7 @@ lists:
         out: "artist"
       - in: "([das ]album|[die ]platte)"
         out: "album"
-      - in: "([den ]track|[die ]nummer|[das ]lied)"
+      - in: "([den ]track|[die ]nummer|[das ]lied|[den ]Song)"
         out: "track"
       - in: "([die ]wiedergabeliste|[die ]playlist)"
         out: "playlist"

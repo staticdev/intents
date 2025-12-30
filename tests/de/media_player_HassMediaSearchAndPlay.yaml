@@ -242,6 +242,9 @@ tests:
 
   - sentences:
       - "spiele den track Enter Sandman"
+      - "spiele den song Enter Sandman"
+      - "spiele das Lied Enter Sandman"
+      - "spiele die nummer Enter Sandman"
     intent:
       name: "HassMediaSearchAndPlay"
       slots:
@@ -250,6 +253,19 @@ tests:
         area: "Wohnzimmer"
       context:
         area: "Wohnzimmer"
+    response: "Wiedergabe wird gestartet"
+
+  - sentences:
+      - "spiele den track Enter Sandman in der Küche"
+      - "spiele den song Enter Sandman in der Küche"
+      - "spiele das Lied Enter Sandman in der Küche"
+      - "spiele die nummer Enter Sandman in der Küche"
+    intent:
+      name: "HassMediaSearchAndPlay"
+      slots:
+        search_query: "Enter Sandman"
+        media_class: "track"
+        area: "Küche"
     response: "Wiedergabe wird gestartet"
 
   - sentences:
