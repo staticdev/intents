@@ -229,6 +229,7 @@ tests:
 
   - sentences:
       - "spiele das Album American Idiot"
+      - "spiele die Platte American Idiot"
     intent:
       name: "HassMediaSearchAndPlay"
       slots:
