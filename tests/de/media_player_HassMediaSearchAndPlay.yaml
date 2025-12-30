@@ -134,6 +134,7 @@ tests:
   # media_class
   - sentences:
       - "spiele die Band Led Zeppelin"
+      - "spiel Musik von Led Zeppelin"
     intent:
       name: "HassMediaSearchAndPlay"
       slots:
@@ -142,6 +143,18 @@ tests:
         area: "Wohnzimmer"
       context:
         area: "Wohnzimmer"
+    response: "Wiedergabe wird gestartet"
+
+  # media class / area
+  - sentences:
+      - "spiele die Band Led Zeppelin in der Küche"
+      - "spiel Musik von Led Zeppelin in der Küche"
+    intent:
+      name: "HassMediaSearchAndPlay"
+      slots:
+        search_query: "Led Zeppelin"
+        media_class: "artist"
+        area: "Küche"
     response: "Wiedergabe wird gestartet"
 
   - sentences:
