@@ -551,7 +551,7 @@ lists:
 
   media_class:
     values:
-      - in: "([den ]künstler|[die ]künstlerin|[den ]sänger|[die ]sängerin|[die ]band|Musik von)"
+      - in: "([den ]künstler|[die ]künstlerin|[den ]sänger|[die ]sängerin|[die ]band|(Musik|Lieder|[et]was) von[ (dem (Künstler|Sänger)|der (Künstlerin|Sängerin|Band|Gruppe))]|(Musik|Lieder|[et]was) vom (Künstler|Sänger))"
         out: "artist"
       - in: "[das ]album"
         out: "album"
