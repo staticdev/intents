@@ -76,6 +76,10 @@ tests:
       - wie kalt ist die Wohnzimmer Heizung gestellt
       - wie kalt ist das Wohnzimmer Thermostat gestellt
       - wie kalt ist die Wohnzimmer Klimaanlage gestellt
+      - Zieltemperatur Wohnzimmer
+      - Wohnzimmer Zieltemperatur
+      - Solltemperatur Wohnzimmer
+      - Wohnzimmer Solltemperatur
     intent:
       name: HassClimateGetTemperature
       slots:
@@ -158,6 +162,10 @@ tests:
       - wie kalt ist die Erdgeschoss Heizung gestellt
       - wie kalt ist das Erdgeschoss Thermostat gestellt
       - wie kalt ist die Erdgeschoss Klimaanlage gestellt
+      - Zieltemperatur Erdgeschoss
+      - Erdgeschoss Zieltemperatur
+      - Solltemperatur Erdgeschoss
+      - Erdgeschoss Solltemperatur
     intent:
       name: HassClimateGetTemperature
       slots:
@@ -296,6 +304,18 @@ tests:
       - wie kalt ist in diesem Zimmer der Thermostat gestellt
       - wie kalt ist hier im Raum die Klimaanlage eingestellt
       - wie kalt ist hier im Zimmer die Klimaanlage eingestellt
+      - Zieltemperatur
+      - Solltemperatur
+      - Zieltemperatur hier
+      - Zieltemperatur in diesem Raum
+      - Zieltemperatur in diesem Bereich
+      - Zieltemperatur in diesem Zimmer
+      - Zieltemperatur hier im Raum
+      - Solltemperatur hier
+      - Solltemperatur in diesem Raum
+      - Solltemperatur in diesem Bereich
+      - Solltemperatur in diesem Zimmer
+      - Solltemperatur hier im Raum
     intent:
       name: HassClimateGetTemperature
       context:
@@ -360,6 +380,10 @@ tests:
       - wie kalt ist die Heizung Wohnzimmerthermostat gestellt
       - wie kalt ist das thermostat Wohnzimmerthermostat gestellt
       - wie kalt ist die Klimaanlage Wohnzimmerthermostat eingestellt
+      - Zieltemperatur Wohnzimmerthermostat
+      - Solltemperatur Wohnzimmerthermostat
+      - Wohnzimmerthermostat Zieltemperatur
+      - Wohnzimmerthermostat Solltemperatur
     intent:
       name: HassClimateGetTemperature
       slots:

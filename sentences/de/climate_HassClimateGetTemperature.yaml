@@ -16,6 +16,7 @@ intents:
       - sentences:
           - "(Auf (<wieviel> Grad|welche [Ziel|Soll]Temperatur)|wie (warm|kalt)) ist (die Heizung|(der|das) Thermostat|die Klima[anlage])[ <hier>] [ein]gestellt"
           - "(Auf (<wieviel> Grad|welche [Ziel|Soll]Temperatur)|wie (warm|kalt)) ist <hier> (die Heizung|(der|das) Thermostat|die Klima[anlage]) [ein]gestellt"
+          - "(Ziel|Soll)temperatur[ <hier>]"
         response: target_temperature
         requires_context:
           area:
@@ -35,6 +36,8 @@ intents:
       - sentences:
           - "(Auf (<wieviel> Grad|welche [Ziel|Soll]Temperatur)|wie (warm|kalt)) ist[ (die Heizung|(der|das) Thermostat|die Klima[anlage])] <area_floor> [ein]gestellt"
           - "(Auf (<wieviel> Grad|welche [Ziel|Soll]Temperatur)|wie (warm|kalt)) ist <area_floor> (Heizung|Thermostat|Klima[anlage]) [ein]gestellt"
+          - "(Ziel|Soll)temperatur <area_floor>"
+          - "<area_floor> (Ziel|Soll)temperatur"
         response: target_temperature
 
       # Get temperature of a named climate
@@ -47,4 +50,6 @@ intents:
         response: current_temperature
       - sentences:
           - "(Auf (<wieviel> Grad|welche [Ziel|Soll]Temperatur)|wie (warm|kalt)) ist[ (die Heizung|(der|das) Thermostat|die Klima[anlage])] <name> [ein]gestellt"
+          - "(Ziel|Soll)temperatur <name>"
+          - "<name> (Ziel|Soll)temperatur"
         response: target_temperature
