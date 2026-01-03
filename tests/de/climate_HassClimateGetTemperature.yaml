@@ -37,8 +37,22 @@ tests:
       - Auf welche Temperatur ist der Thermostat im Wohnzimmer gestellt?
       - Auf welche Temperatur ist das Thermostat im Wohnzimmer eingestellt?
       - Auf welche Temperatur ist das Thermostat im Wohnzimmer gestellt?
+      - Auf welche Zieltemperatur ist die Heizung im Wohnzimmer eingestellt?
+      - Auf welche Zieltemperatur ist die Heizung im Wohnzimmer gestellt?
+      - Auf welche Zieltemperatur ist der Thermostat im Wohnzimmer eingestellt?
+      - Auf welche Zieltemperatur ist der Thermostat im Wohnzimmer gestellt?
+      - Auf welche Zieltemperatur ist das Thermostat im Wohnzimmer eingestellt?
+      - Auf welche Zieltemperatur ist das Thermostat im Wohnzimmer gestellt?
+      - Auf welche Solltemperatur ist die Heizung im Wohnzimmer eingestellt?
+      - Auf welche Solltemperatur ist die Heizung im Wohnzimmer gestellt?
+      - Auf welche Solltemperatur ist der Thermostat im Wohnzimmer eingestellt?
+      - Auf welche Solltemperatur ist der Thermostat im Wohnzimmer gestellt?
+      - Auf welche Solltemperatur ist das Thermostat im Wohnzimmer eingestellt?
+      - Auf welche Solltemperatur ist das Thermostat im Wohnzimmer gestellt?
       - Auf wie viel Grad ist die Klimaanlage im Wohnzimmer eingestellt?
       - Auf welche Temperatur ist die Klima im Wohnzimmer gestellt?
+      - Auf welche Zieltemperatur ist die Klima im Wohnzimmer gestellt?
+      - Auf welche Solltemperatur ist die Klima im Wohnzimmer gestellt?
       - Wie warm ist die Heizung im Wohnzimmer eingestellt
       - wie warm ist die Heizung im Wohnzimmer gestellt
       - wie warm ist das thermostat im wohnzimmer gestellt
@@ -51,6 +65,8 @@ tests:
       - auf wie viel grad ist die Wohnzimmer Heizung eingestellt?
       - auf wie viel Grad ist die Wohnzimmer Heizung gestellt
       - auf welche temperatur ist das Wohnzimmer Thermostat gestellt
+      - auf welche Zieltemperatur ist das Wohnzimmer Thermostat gestellt
+      - auf welche Solltemperatur ist das Wohnzimmer Thermostat gestellt
       - auf wieviel grad ist die Wohnzimmer Klimaanlage eingestellt
       - wie warm ist die Wohnzimmer Heizung eingestellt
       - wie warm ist die Wohnzimmer Heizung gestellt
@@ -103,8 +119,22 @@ tests:
       - Auf welche Temperatur ist der Thermostat im Erdgeschoss gestellt?
       - Auf welche Temperatur ist das Thermostat im Erdgeschoss eingestellt?
       - Auf welche Temperatur ist das Thermostat im Erdgeschoss gestellt?
+      - Auf welche Zieltemperatur ist die Heizung im Erdgeschoss eingestellt?
+      - Auf welche Zieltemperatur ist die Heizung im Erdgeschoss gestellt?
+      - Auf welche Zieltemperatur ist der Thermostat im Erdgeschoss eingestellt?
+      - Auf welche Zieltemperatur ist der Thermostat im Erdgeschoss gestellt?
+      - Auf welche Zieltemperatur ist das Thermostat im Erdgeschoss eingestellt?
+      - Auf welche Zieltemperatur ist das Thermostat im Erdgeschoss gestellt?
+      - Auf welche Solltemperatur ist die Heizung im Erdgeschoss eingestellt?
+      - Auf welche Solltemperatur ist die Heizung im Erdgeschoss gestellt?
+      - Auf welche Solltemperatur ist der Thermostat im Erdgeschoss eingestellt?
+      - Auf welche Solltemperatur ist der Thermostat im Erdgeschoss gestellt?
+      - Auf welche Solltemperatur ist das Thermostat im Erdgeschoss eingestellt?
+      - Auf welche Solltemperatur ist das Thermostat im Erdgeschoss gestellt?
       - Auf wie viel Grad ist die Klimaanlage im Erdgeschoss eingestellt?
       - Auf welche Temperatur ist die Klima im Erdgeschoss gestellt?
+      - Auf welche Zieltemperatur ist die Klima im Erdgeschoss gestellt?
+      - Auf welche Solltemperatur ist die Klima im Erdgeschoss gestellt?
       - Wie warm ist die Heizung im Erdgeschoss eingestellt
       - wie warm ist die Heizung im Erdgeschoss gestellt
       - wie warm ist das thermostat im Erdgeschoss gestellt
@@ -117,6 +147,8 @@ tests:
       - auf wie viel grad ist die Erdgeschoss Heizung eingestellt?
       - auf wie viel Grad ist die Erdgeschoss Heizung gestellt
       - auf welche temperatur ist das Erdgeschoss Thermostat gestellt
+      - auf welche Zieltemperatur ist das Erdgeschoss Thermostat gestellt
+      - auf welche Solltemperatur ist das Erdgeschoss Thermostat gestellt
       - auf wieviel grad ist die Erdgeschoss Klimaanlage eingestellt
       - wie warm ist die Erdgeschoss Heizung eingestellt
       - wie warm ist die Erdgeschoss Heizung gestellt
@@ -206,6 +238,30 @@ tests:
       - Auf welche Temperatur ist das Thermostat hier gestellt?
       - Auf welche Temperatur ist das Thermostat eingestellt?
       - Auf welche Temperatur ist das Thermostat gestellt?
+      - Auf welche Zieltemperatur ist die Heizung hier eingestellt?
+      - Auf welche Zieltemperatur ist die Heizung hier gestellt?
+      - Auf welche Zieltemperatur ist die Heizung eingestellt?
+      - Auf welche Zieltemperatur ist die Heizung gestellt?
+      - Auf welche Zieltemperatur ist der Thermostat hier eingestellt?
+      - Auf welche Zieltemperatur ist der Thermostat hier gestellt?
+      - Auf welche Zieltemperatur ist der Thermostat eingestellt?
+      - Auf welche Zieltemperatur ist der Thermostat gestellt?
+      - Auf welche Zieltemperatur ist das Thermostat hier eingestellt?
+      - Auf welche Zieltemperatur ist das Thermostat hier gestellt?
+      - Auf welche Zieltemperatur ist das Thermostat eingestellt?
+      - Auf welche Zieltemperatur ist das Thermostat gestellt?
+      - Auf welche Solltemperatur ist die Heizung hier eingestellt?
+      - Auf welche Solltemperatur ist die Heizung hier gestellt?
+      - Auf welche Solltemperatur ist die Heizung eingestellt?
+      - Auf welche Solltemperatur ist die Heizung gestellt?
+      - Auf welche Solltemperatur ist der Thermostat hier eingestellt?
+      - Auf welche Solltemperatur ist der Thermostat hier gestellt?
+      - Auf welche Solltemperatur ist der Thermostat eingestellt?
+      - Auf welche Solltemperatur ist der Thermostat gestellt?
+      - Auf welche Solltemperatur ist das Thermostat hier eingestellt?
+      - Auf welche Solltemperatur ist das Thermostat hier gestellt?
+      - Auf welche Solltemperatur ist das Thermostat eingestellt?
+      - Auf welche Solltemperatur ist das Thermostat gestellt?
       - Auf wieviel Grad ist die Klimaanlage in diesem Raum eingestellt?
       - Auf wieviel Grad ist die Klimaanlage in diesem Zimmer eingestellt?
       - Wie warm ist die Heizung hier eingestellt
@@ -226,6 +282,10 @@ tests:
       - auf wieviel grad ist in diesem Zimmer das Thermostat gestellt
       - auf welche Temperatur ist hier in diesem Raum die Klimaanlage eingestellt
       - auf welche Temperatur ist hier in diesem Zimmer die Klimaanlage eingestellt
+      - auf welche Zieltemperatur ist hier in diesem Raum die Klimaanlage eingestellt
+      - auf welche Zieltemperatur ist hier in diesem Zimmer die Klimaanlage eingestellt
+      - auf welche Solltemperatur ist hier in diesem Raum die Klimaanlage eingestellt
+      - auf welche Solltemperatur ist hier in diesem Zimmer die Klimaanlage eingestellt
       - wie warm ist hier die Heizung eingestellt
       - wie warm ist in diesem Raum der Thermostat gestellt
       - wie warm ist in diesem Zimmer der Thermostat gestellt
@@ -276,8 +336,22 @@ tests:
       - Auf welche Temperatur ist der Thermostat Wohnzimmerthermostat gestellt?
       - Auf welche Temperatur ist das Thermostat Wohnzimmerthermostat eingestellt?
       - Auf welche Temperatur ist das Thermostat Wohnzimmerthermostat gestellt?
+      - Auf welche Zieltemperatur ist die Heizung Wohnzimmerthermostat eingestellt?
+      - Auf welche Zieltemperatur ist die Heizung Wohnzimmerthermostat gestellt?
+      - Auf welche Zieltemperatur ist der Thermostat Wohnzimmerthermostat eingestellt?
+      - Auf welche Zieltemperatur ist der Thermostat Wohnzimmerthermostat gestellt?
+      - Auf welche Zieltemperatur ist das Thermostat Wohnzimmerthermostat eingestellt?
+      - Auf welche Zieltemperatur ist das Thermostat Wohnzimmerthermostat gestellt?
+      - Auf welche Solltemperatur ist die Heizung Wohnzimmerthermostat eingestellt?
+      - Auf welche Solltemperatur ist die Heizung Wohnzimmerthermostat gestellt?
+      - Auf welche Solltemperatur ist der Thermostat Wohnzimmerthermostat eingestellt?
+      - Auf welche Solltemperatur ist der Thermostat Wohnzimmerthermostat gestellt?
+      - Auf welche Solltemperatur ist das Thermostat Wohnzimmerthermostat eingestellt?
+      - Auf welche Solltemperatur ist das Thermostat Wohnzimmerthermostat gestellt?
       - Auf wie viel Grad ist die Klimaanlage Wohnzimmerthermostat eingestellt?
       - Auf welche Temperatur ist die Klimaanlage Wohnzimmerthermostat gestellt?
+      - Auf welche Zieltemperatur ist die Klimaanlage Wohnzimmerthermostat gestellt?
+      - Auf welche Solltemperatur ist die Klimaanlage Wohnzimmerthermostat gestellt?
       - Wie warm ist die Heizung Wohnzimmerthermostat eingestellt
       - wie warm ist die Heizung Wohnzimmerthermostat gestellt
       - wie warm ist das thermostat Wohnzimmerthermostat gestellt

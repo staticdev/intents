@@ -14,8 +14,8 @@ intents:
           area:
             slot: true
       - sentences:
-          - "(Auf (<wieviel> Grad|welche Temperatur)|wie (warm|kalt)) ist (die Heizung|(der|das) Thermostat|die Klima[anlage])[ <hier>] [ein]gestellt"
-          - "(Auf (<wieviel> Grad|welche Temperatur)|wie (warm|kalt)) ist <hier> (die Heizung|(der|das) Thermostat|die Klima[anlage]) [ein]gestellt"
+          - "(Auf (<wieviel> Grad|welche [Ziel|Soll]Temperatur)|wie (warm|kalt)) ist (die Heizung|(der|das) Thermostat|die Klima[anlage])[ <hier>] [ein]gestellt"
+          - "(Auf (<wieviel> Grad|welche [Ziel|Soll]Temperatur)|wie (warm|kalt)) ist <hier> (die Heizung|(der|das) Thermostat|die Klima[anlage]) [ein]gestellt"
         response: target_temperature
         requires_context:
           area:
@@ -33,8 +33,8 @@ intents:
           - "<area_floor> Temperatur"
         response: current_temperature
       - sentences:
-          - "(Auf (<wieviel> Grad|welche Temperatur)|wie (warm|kalt)) ist[ (die Heizung|(der|das) Thermostat|die Klima[anlage])] <area_floor> [ein]gestellt"
-          - "(Auf (<wieviel> Grad|welche Temperatur)|wie (warm|kalt)) ist <area_floor> (Heizung|Thermostat|Klima[anlage]) [ein]gestellt"
+          - "(Auf (<wieviel> Grad|welche [Ziel|Soll]Temperatur)|wie (warm|kalt)) ist[ (die Heizung|(der|das) Thermostat|die Klima[anlage])] <area_floor> [ein]gestellt"
+          - "(Auf (<wieviel> Grad|welche [Ziel|Soll]Temperatur)|wie (warm|kalt)) ist <area_floor> (Heizung|Thermostat|Klima[anlage]) [ein]gestellt"
         response: target_temperature
 
       # Get temperature of a named climate
@@ -46,5 +46,5 @@ intents:
           - "<name> Temperatur"
         response: current_temperature
       - sentences:
-          - "(Auf (<wieviel> Grad|welche Temperatur)|wie (warm|kalt)) ist[ (die Heizung|(der|das) Thermostat|die Klima[anlage])] <name> [ein]gestellt"
+          - "(Auf (<wieviel> Grad|welche [Ziel|Soll]Temperatur)|wie (warm|kalt)) ist[ (die Heizung|(der|das) Thermostat|die Klima[anlage])] <name> [ein]gestellt"
         response: target_temperature
