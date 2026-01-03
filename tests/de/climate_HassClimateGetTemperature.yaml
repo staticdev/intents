@@ -153,10 +153,14 @@ tests:
       - Wie viel Grad hat es hier?
       - Wie viel Grad sind es hier?
       - Wie hoch ist die Temperatur in diesem Raum?
+      - Wie hoch ist die Temperatur in diesem Zimmer?
       - Wie ist im Raum die Temperatur?
+      - Wie ist in diesem Zimmer die Temperatur?
       - Wie ist in diesem Bereich die Temperatur?
       - Wie kalt ist es im Raum?
+      - Wie kalt ist es hier im Zimmer?
       - Wieviel Grad hat es in diesem Raum?
+      - Wieviel Grad hat es in diesem Zimmer?
       - Wieviel Grad hat es in diesem Bereich?
     intent:
       name: HassClimateGetTemperature
@@ -191,24 +195,35 @@ tests:
       - Auf welche Temperatur ist das Thermostat eingestellt?
       - Auf welche Temperatur ist das Thermostat gestellt?
       - Auf wieviel Grad ist die Klimaanlage in diesem Raum eingestellt?
+      - Auf wieviel Grad ist die Klimaanlage in diesem Zimmer eingestellt?
       - Wie warm ist die Heizung hier eingestellt
       - wie warm ist die Heizung in diesem Raum gestellt
+      - wie warm ist die Heizung in diesem Zimmer gestellt
       - wie warm ist das thermostat hier im Raum gestellt
+      - wie warm ist das thermostat hier im Zimmer gestellt
       - wie warm ist die Klimaanlage hier eingestellt
       - Wie kalt ist die Heizung hier eingestellt
       - wie kalt ist die Heizung hier im Raum gestellt
+      - wie kalt ist die Heizung hier im Zimmer gestellt
       - wie kalt ist das thermostat in diesem Raum gestellt
+      - wie kalt ist das thermostat in diesem Zimmer gestellt
       - wie kalt ist die Klimaanlage hier eingestellt
 
       - auf wie viel grad ist hier die Heizung eingestellt
       - auf wieviel grad ist in diesem Raum das Thermostat gestellt
+      - auf wieviel grad ist in diesem Zimmer das Thermostat gestellt
       - auf welche Temperatur ist hier in diesem Raum die Klimaanlage eingestellt
+      - auf welche Temperatur ist hier in diesem Zimmer die Klimaanlage eingestellt
       - wie warm ist hier die Heizung eingestellt
       - wie warm ist in diesem Raum der Thermostat gestellt
+      - wie warm ist in diesem Zimmer der Thermostat gestellt
       - wie warm ist hier im Raum die Klimaanlage eingestellt
+      - wie warm ist hier im Zimmer die Klimaanlage eingestellt
       - wie kalt ist hier die Heizung eingestellt
       - wie kalt ist in diesem Raum der Thermostat gestellt
+      - wie kalt ist in diesem Zimmer der Thermostat gestellt
       - wie kalt ist hier im Raum die Klimaanlage eingestellt
+      - wie kalt ist hier im Zimmer die Klimaanlage eingestellt
     intent:
       name: HassClimateGetTemperature
       context:
