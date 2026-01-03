@@ -16,6 +16,8 @@ tests:
       - wie kalt ist das Wohnzimmer?
       - wie viel grad hat das Wohnzimmer
       - wie viel grad sind im Wohnzimmer
+      - Temperatur Wohnzimmer
+      - Wohnzimmer Temperatur
     intent:
       name: HassClimateGetTemperature
       slots:
@@ -80,6 +82,8 @@ tests:
       - wie kalt ist das Erdgeschoss?
       - wie viel grad hat das Erdgeschoss
       - wie viel grad sind im Erdgeschoss
+      - Temperatur Erdgeschoss
+      - Erdgeschoss Temperatur
     intent:
       name: HassClimateGetTemperature
       slots:
@@ -130,6 +134,8 @@ tests:
 
   - sentences:
       - Wie hoch ist die Temperatur der Küche?
+      - Temperatur Küche
+      - Küche Temperatur
     intent:
       name: HassClimateGetTemperature
       slots:
@@ -162,6 +168,12 @@ tests:
       - Wieviel Grad hat es in diesem Raum?
       - Wieviel Grad hat es in diesem Zimmer?
       - Wieviel Grad hat es in diesem Bereich?
+      - Temperatur
+      - Temperatur hier
+      - Temperatur in diesem Raum
+      - Temperatur in diesem Bereich
+      - Temperatur in diesem Zimmer
+      - Temperatur dieses Zimmer
     intent:
       name: HassClimateGetTemperature
       context:
