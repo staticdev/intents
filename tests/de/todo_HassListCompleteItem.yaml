@@ -56,3 +56,13 @@ tests:
         item: "Putzen"
         name: "Haushalt"
     response: Putzen abgehakt
+
+  - sentences:
+      - "streiche Putzen von der to-do-liste"
+      - "lösche Putzen von unserer to-do-liste"
+    intent:
+      name: HassListCompleteItem
+      slots:
+        item: "Putzen"
+        name: "To-Do"
+    response: Putzen abgehakt

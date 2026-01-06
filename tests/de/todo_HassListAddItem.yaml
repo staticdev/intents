@@ -56,3 +56,13 @@ tests:
         item: "Putzen"
         name: "Haushalt"
     response: Putzen hinzugefügt
+
+  - sentences:
+      - "schreib Putzen auf die to-do-liste"
+      - "füge Putzen zur to-do-liste hinzu"
+    intent:
+      name: HassListAddItem
+      slots:
+        item: "Putzen"
+        name: "To-Do"
+    response: Putzen hinzugefügt
