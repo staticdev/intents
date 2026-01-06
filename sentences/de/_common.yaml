@@ -684,6 +684,10 @@ expansion_rules:
   co_sensor: "<co>[-]Sensor[en]"
   gas_sensor: "Gas[-]Sensor[en]"
 
+  # ToDo-Lists
+  meine_liste_dativ: "[(meiner|unserer|der) ]({name}[([ ]|s[ ])Liste]|[Liste ]{name})"
+  meine_liste_akkusativ: "[(meine|unsere|die) ]({name}[([ ]|s[ ])Liste]|[Liste ]{name})"
+
   # Timers
   timer_set: "(starte|setze|<stelle>|<erstelle>)"
   timer_set_end_of_sentence: "(starten|setzen|[er|ein]stellen)"

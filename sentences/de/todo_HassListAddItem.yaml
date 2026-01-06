@@ -15,6 +15,4 @@ intents:
         requires_context:
           domain: todo
         expansion_rules:
-          meine_liste_dativ: "[(meiner|unserer|der) ]({name}[( |s[ ])Liste]|[Liste ]{name})"
-          meine_liste_akkusativ: "[(meine|unsere|die) ]({name}[( |s[ ])Liste]|[Liste ]{name})"
           item: "{todo_list_item:item}"
