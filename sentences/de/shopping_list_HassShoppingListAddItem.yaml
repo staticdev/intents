@@ -7,7 +7,7 @@ intents:
           - "füge <item>[ (zu|zum)] <mein_einkauf_dativ> hinzu"
           - "füge[ (zu|zur)] <meine_einkaufsliste_dativ> <item> hinzu"
           - "füge[ (zu|zum)] <mein_einkauf_dativ> <item> hinzu"
-          - "(setz[e]|<stt_fix_setze>|schreib[e]|nehme|nimm|pack[e]) <item> (auf|in) <meine_einkaufsliste_akkusativ>"
+          - "(setz[e]|<stt_fix_setze>|schreib[e]|<stt_fix_schreib>|nehme|nimm|pack[e]) <item> (auf|in) <meine_einkaufsliste_akkusativ>"
           - "ergänze <item> (auf|in) <meine_einkaufsliste_dativ>"
           - "<item> (auf|in) <meine_einkaufsliste_akkusativ>[ (setzen|schreiben|nehmen|packen)]"
           - "<item> (auf|in) <meine_einkaufsliste_dativ> ergänzen"

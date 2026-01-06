@@ -47,6 +47,9 @@ tests:
       - "Putzen auf der Liste Haushalt ergänzen"
       - "Putzen in meiner Liste Haushalt ergänzen"
       - "Putzen in unserer Liste Haushalt ergänzen"
+      # stt-fixes
+      - "schreibt Putzen auf die Liste Haushalt"
+      - "schreibt Putzen auf die Haushalt Liste"
     intent:
       name: HassListAddItem
       slots:
