@@ -14,7 +14,6 @@ tests:
       - "Milch auf die Liste packen"
       - "setze Milch auf die Liste"
       - "setz Milch auf die Liste"
-      - "setzt Milch auf die Liste"
       - "pack Milch auf die Liste"
       - "packe Milch auf die Liste"
       - "schreibe Milch auf die Liste"
@@ -50,6 +49,7 @@ tests:
       - "Milch auf unserer Liste ergänzen"
       # stt-fixes
       - "schreibt Milch auf die Einkaufsliste"
+      - "setzt Milch auf die Liste"
     intent:
       name: HassShoppingListAddItem
       slots:
