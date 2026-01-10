@@ -8,6 +8,7 @@ intents:
           domain: media_player
       - sentences:
           - "<pausa>"
+          - "<pausa> [la |el |mi ](música|programa|vídeo|video|reproducción|reproductor)"
         requires_context:
           area:
             slot: true
