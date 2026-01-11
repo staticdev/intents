@@ -22,8 +22,7 @@ intents:
       - sentences:
           - "<setzen> [die ]Lautstärke[ auf] <volume>"
           - "<stelle> [die ]Lautstärke[ auf] <volume> ein"
-          - "[die ]Lautstärke[ auf] <volume>[ <setzen_end_of_sentence>]"
-          - "Lautstärke[ (auf|zu)] <volume>[ <setzen_end_of_sentence>]"
+          - "[die ]Lautstärke[ (auf|zu)] <volume>[ <setzen_end_of_sentence>]"
         requires_context:
           area:
             slot: true

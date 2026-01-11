@@ -112,6 +112,10 @@ tests:
       - Setze die Lautstärke auf 10%
       - Setze Lautstärke auf 10%
       - Lautstärke auf 10%
+      - die Lautstärke auf 10 Prozent setzen
+      - Lautstärke zu 10% verändern
+      - die Lautstärke auf 10% stellen
+      - Lautstärke auf 10% einstellen
     intent:
       name: HassSetVolume
       context:
