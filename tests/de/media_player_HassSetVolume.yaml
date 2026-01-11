@@ -116,6 +116,15 @@ tests:
       - Lautstärke zu 10% verändern
       - die Lautstärke auf 10% stellen
       - Lautstärke auf 10% einstellen
+      - stell die Lautstärke hier auf 10 %
+      - stelle die Lautstärke im raum auf 10%
+      - ändere die Lautstärke hier im Raum auf 10 Prozent
+      - stelle die Lautstärke hier im Raum auf 10 Prozent ein
+      - Lautstärke hier 10 Prozent
+      - Lautstärke im Raum 10%
+      - Lautstärke im Raum auf 10 Prozent
+      - Lautstärke im Raum zu 10 % verändern
+      - die Lautstärke hier im Raum auf 10 Prozent einstellen
     intent:
       name: HassSetVolume
       context:
@@ -132,6 +141,7 @@ tests:
       - Die Lautstärke im Wohnzimmer auf 10 stellen
       - Lautstärke im Wohnzimmer 10 %
       - Lautstärke im Wohnzimmer auf 10 % setzen
+      - die Lautstärke im Wohnzimmer zu 10 Prozent verändern
     intent:
       name: HassSetVolume
       context:
