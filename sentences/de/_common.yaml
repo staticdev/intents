@@ -667,9 +667,9 @@ expansion_rules:
   # doors / locks
   tuer: "[die ]Tür[e|en]"
   schloss: "([das ]Schloss|[die ]Schlösser)"
-  sperren: "(sperr|schlie(ss|ß))[e|en]"
-  entsperren: "(entsperr[e|en]|aufschlie(ss|ß)[e|en]|öffne[n]|entrieg(el[n]|le))"
-  absperren: "((zu|ab)<sperren>|verrieg(el[n]|le))"
+  sperren: "(sperr|schlie(ss|ß))[e]"
+  entsperren: "(entsperr[e|en]|aufschlie(ss|ß)(e|en)|öffne[n]|entrieg(el[n]|le))"
+  absperren: "((zu|ab)(sperr|schlie(ss|ß))en|verrieg(el[n]|le))"
 
   # scene / script
   szene: "[die ]Szene"
