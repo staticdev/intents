@@ -243,6 +243,7 @@ tests:
       - "spiel etwas von Led Zeppelin in diesem Raum"
       - "spiel etwas von Led Zeppelin in diesem Zimmer"
       - "Spiel hier Musik von Led Zeppelin"
+      - "ich mag Musik von Led Zeppelin hören"
     intent:
       name: "HassMediaSearchAndPlay"
       slots:
