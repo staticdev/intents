@@ -557,14 +557,21 @@ lists:
         out: "album"
       - in: "([den ]track|[die ]nummer|[das ]lied|[den ]Song)"
         out: "track"
-      - in: "([die ]wiedergabeliste|[die ]playlist)"
+      - in: "([(die|meine|unsere) ]wiedergabeliste|[(die|meine|unsere) ]playlist)"
         out: "playlist"
-      - in: "[den ]podcast"
+      - in: "[(den|meinen|unseren) ]podcast"
         out: "podcast"
       - in: "([den ]film|[den ]streifen)"
         out: "movie"
       - in: "[die ][tv ](show|serie)"
         out: "tv_show"
+
+  media_class_my_split:
+    values:
+      - in: "(wiedergabeliste|playlist)"
+        out: "playlist"
+      - in: "podcast"
+        out: "podcast"
 
   fan_speed:
     range:
