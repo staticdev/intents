@@ -4,10 +4,11 @@
 language: it
 areas:
   - name: Soggiorno
+    context_area: true
 tests:
   - sentences:
       - pulisci qui
       - aspira qua
       - pulisci in questa stanza
       - passa l'aspirapolvere in questa camera
-    response: Sto pulendo __context_area__
+    response: Sto pulendo Soggiorno
